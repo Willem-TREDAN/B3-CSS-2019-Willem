@@ -7,9 +7,9 @@ body {
 }
 
 header {
-  text-align: right;
+  text-align: left;
   padding: 25px;
-  background-color: #afc7ab;
+  background-color: black;
 }
 
 header a {
@@ -24,7 +24,7 @@ header a:hover{
 }
 
 #section1 {
-  background-image: url("apes1.jpg");
+  background-image: url("koko_gorille.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
@@ -39,7 +39,7 @@ header a:hover{
 }
 
 #section2, #section3, #section4 {
-  display: flex;
+  columns: 3;
 }
 
 #section3 {
@@ -57,7 +57,7 @@ header a:hover{
 }
 
 #section5 {
-  background-image: url("baby.jpg");
+  background-image: url("279168-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
